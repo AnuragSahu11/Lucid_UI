@@ -50,3 +50,9 @@
   color: var(--red);
   background-color: var(--very-light-red);
 }
+
+/* Alert with close */
+
+.alert-close button{
+    margin-left: 8px;
+}
