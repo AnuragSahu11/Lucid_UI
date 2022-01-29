@@ -56,3 +56,12 @@
 .alert-close button{
     margin-left: 8px;
 }
+
+/* Alert with link */
+
+.alert-link a{
+    color:inherit;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 8px;
+}
