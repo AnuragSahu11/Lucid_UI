@@ -1,0 +1,87 @@
+/* Avatar starts here */
+
+/* Avatar sizes */
+
+/* avatar xs */
+
+.avatar-xs {
+  position: relative;
+  vertical-align: middle;
+  font-size: 4.4px;
+}
+.avatar-xs img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: solid 1px var(--primary);
+}
+
+/* avatar s */
+
+.avatar-s {
+  position: relative;
+  vertical-align: middle;
+  font-size: 7.3px;
+  border-radius: 50%;
+}
+.avatar-s img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: solid 2px var(--primary);
+}
+
+/* avatar m */
+
+.avatar-m {
+  position: relative;
+  vertical-align: middle;
+  font-size: 10px;
+}
+.avatar-m img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: solid 3px var(--primary);
+}
+
+/* avatar l */
+
+.avatar-l {
+  position: relative;
+  vertical-align: middle;
+  font-size: 13px;
+}
+.avatar-l img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: solid 3px var(--primary);
+}
+
+/* avatar xl */
+
+.avatar-xl {
+  position: relative;
+  vertical-align: middle;
+  font-size: 17px;
+}
+.avatar-xl img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: solid 3px var(--primary);
+}
+
+/* avatar with badge */
+
+.avatar-badge {
+  position: absolute;
+  border: solid white;
+  top: 4.8em;
+  left: 5em;
+  height: 2em;
+  width: 2em;
+  background-color: var(--primary);
+  border-radius: 50%;
+}
