@@ -2,6 +2,8 @@
 /* font is imported below */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;900&display=swap");
+@import "/base/css/fontawesome.min.css";
+@import "/base/css/solid.min.css";
 
 /* fonts */
 
@@ -33,6 +35,19 @@ body {
   --very-light-red: #ffd0cd;
   --very-light-yellow: #fdf7e8;
   --white: white;
+  --black: black;
+}
+
+/* spacing variables*/
+
+:root {
+  --xxs: 8px;
+  --xs:10px;
+  --s: 16px;
+  --m: 24px;
+  --l: 32px;
+  --xl: 40px;
+  --xxl: 64px;
 }
 
 /* typography */
@@ -73,10 +88,10 @@ body {
 .regular {
   font-weight: 400;
 }
-.regular {
+.semibold {
   font-weight: 600;
 }
-.semibold {
+.bold {
   font-weight: 700;
 }
 .black {

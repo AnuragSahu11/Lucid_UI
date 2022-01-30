@@ -1,168 +1,178 @@
 /* Textbox */
 
 .textbox {
-
-    /* border: solid 1px black; */
-    /* padding-left: 24px;
+  /* border: solid 1px black; */
+  /* padding-left: 24px;
     padding-right: 24px; */
+}
 
-  }
+.title {
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: var(--xs);
+}
+.subtitle {
+  margin-bottom: var(--xs);
+  margin-top: 0px;
+  color: var(--font-light);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.text {
+  color: var(--font-light);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 14px 0px;
+}
+.CTA-text {
+  margin-top: 0px;
+  margin-bottom: 14px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.5;
+  letter-spacing: 0px;
+  text-align: left;
+}
 
-  .title {
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 32px;
-    letter-spacing: 0px;
-    text-align: left;
-    margin-bottom: 0px;
-    margin-top: 10px;
-  }
-  .subtitle {
-    margin-bottom: 10px;
-    margin-top: 0px;
-    color: var(--font-light);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 20px;
-    letter-spacing: 0px;
-    text-align: left;
-  }
-  .text {
-    color: var(--font-light);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0px;
-    text-align: left;
-    margin: 14px 0px;
-  }
-  .CTA-text {
-    margin-top: 0px;
-    margin-bottom: 14px;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0px;
-    text-align: left;
-  }
-  
-  /* Buttons */
-  
-  .button-primary{
-    cursor: pointer;
-    font-size: 1.5rem;
-    background-color: var(--primary);
-    padding: 10px 23px;
-    border: none;
-    border-radius: 12px;
-    color: white;
-    height: fit-content;
-    border: solid 2px var(--primary);
-    font-weight: 500;
-  }
-  .button-primary:hover{
-    border: solid 2px var(--primary);
-    background-color: transparent;
-    color: var(--primary);
-  }
-  .button-secondary{
-    cursor: pointer;
-    font-size: 1.5rem;
-    background-color: var(--grey);
-    padding: 10px 23px;
-    border: none;
-    border-radius: 12px;
-    color: var(--primary);
-    height: fit-content;
-    border: solid 2px var(--primary);
-    font-weight: 500;
-  }
-  .button-secondary:hover{
-    border: solid 2px var(--primary);
-    background-color: var(--primary);
-    color:white;
-  }
-  
-  /* button vertical */
-  
-  .button-vertical :nth-child(n){
-    width: 100%;
-  }
-  .button-vertical :nth-child(n+2){
-    margin-top: 5px;
-  }
-  
-  /* button horizontal */
-  
-  .button-horizontal {
-    
-  }
+/* link */
 
-  /* Background colors */
+.link {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+.link:hover {
+  color: var(--secondary);
+}
 
-.has-primary{
-    background-color: var(--primary);
-  }
-  .has-secondary{
-    background-color: var(--secondary);
-  }
-  .has-blue {
-    background-color: var(--blue);
-  }
-  .has-red {
-    background-color: var(--red);
-  }
-  .has-green {
-    background-color: var(--green);
-  }
-  .has-yellow {
-    background-color: var(--yellow);
-  }
-  .has-black {
-    background-color: black;
-  }
-  .has-white {
-    background-color: white;
-  }
-  
-  /* colors */
-  
-  .is-blue {
-    color: var(--blue);
-  }
-  .is-red {
-    color: var(--red);
-  }
-  .is-green {
-    color: var(--green);
-  }
-  
-  /* font colors */
-  
-  .font-dark {
-    color: var(--font-dark);
-  }
-  .font-medium {
-    color: var(--font-light);
-  }
-  .font-black {
-    color: black;
-  }
-  .font-white {
-    color: white;
-  }
-  
-  /* shadow */
-  
-  .shadow{
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-  }
-  .li-shadow{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  }
+/* Buttons */
 
-  
+.button-primary {
+  cursor: pointer;
+  font-size: 1.4rem;
+  background-color: var(--primary);
+  padding: 10px 23px;
+  border: none;
+  border-radius: var(--xs);
+  color: var(--white);
+  height: fit-content;
+  border: solid 2px var(--primary);
+  font-weight: 500;
+}
+.button-primary:hover {
+  border: solid 2px var(--primary);
+  background-color: transparent;
+  color: var(--primary);
+}
+.button-secondary {
+  cursor: pointer;
+  font-size: 1.4rem;
+  background-color: var(--grey);
+  padding: 10px 23px;
+  border: none;
+  border-radius: var(--xs);
+  color: var(--primary);
+  height: fit-content;
+  border: solid 2px var(--primary);
+  font-weight: 500;
+}
+.button-secondary:hover {
+  border: solid 2px var(--primary);
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+/* button vertical */
+
+.button-vertical :nth-child(n) {
+  width: 100%;
+}
+.button-vertical :nth-child(n + 2) {
+  margin-top: 5px;
+}
+
+/* button horizontal */
+
+.button-horizontal {
+}
+
+/* Background colors */
+
+.has-primary {
+  background-color: var(--primary);
+}
+.has-secondary {
+  background-color: var(--secondary);
+}
+.has-blue {
+  background-color: var(--blue);
+}
+.has-red {
+  background-color: var(--red);
+}
+.has-green {
+  background-color: var(--green);
+}
+.has-yellow {
+  background-color: var(--yellow);
+}
+.has-black {
+  background-color: var(--black);
+}
+.has-white {
+  background-color: var(--white);
+}
+
+/* colors,font colors */
+
+.is-blue {
+  color: var(--blue);
+}
+.is-red {
+  color: var(--red);
+}
+.is-green {
+  color: var(--green);
+}
+.is-dark {
+  color: var(--font-dark);
+}
+.is-medium {
+  color: var(--font-light);
+}
+.is-black {
+  color: var(--black);
+}
+.is-white {
+  color: var(--white);
+}
+
+/* shadow */
+
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.li-shadow {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.button-close {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+}
