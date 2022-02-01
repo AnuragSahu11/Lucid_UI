@@ -36,13 +36,14 @@ body {
   --very-light-yellow: #fdf7e8;
   --white: white;
   --black: black;
+  --hover: #6475f7;
 }
 
 /* spacing variables*/
 
 :root {
   --xxs: 8px;
-  --xs:10px;
+  --xs: 10px;
   --s: 16px;
   --m: 24px;
   --l: 32px;

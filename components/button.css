@@ -160,7 +160,7 @@
 
 /* button vertical */
 
-.btn-vertical :nth-child(n) {
+.btn-vertical > * {
   width: 100%;
 }
 .btn-vertical :nth-child(n + 2) {
