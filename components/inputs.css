@@ -41,6 +41,12 @@
   padding: var(--xs);
   text-align: left;
 }
+.form-error-text{
+    width: 100%;
+    font-size: var(--is-2);
+    color: var(--red);
+    font-weight: var(--bold);
+}
 
 /* form label */
 
