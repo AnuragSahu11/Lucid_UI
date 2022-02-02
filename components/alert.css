@@ -19,7 +19,7 @@
 /* alert info */
 
 .alert-info {
-  border: solid 2px var(--blue);
+  border: solid var(--border) var(--blue);
   color: var(--primary);
   background-color: var(--very-light-blue);
 }
@@ -27,7 +27,7 @@
 /* alert success */
 
 .alert-success {
-  border: solid 2px var(--green);
+  border: solid var(--border) var(--green);
   color: var(--green);
   background-color: var(--very-light-green);
 }
@@ -35,7 +35,7 @@
 /* alert warning */
 
 .alert-warning {
-  border: solid 2px var(--yellow);
+  border: solid var(--border) var(--yellow);
   color: var(--yellow);
   background-color: var(--very-light-yellow);
 }
@@ -46,7 +46,7 @@
 /* alert fail */
 
 .alert-fail {
-  border: solid 2px var(--red);
+  border: solid var(--border) var(--red);
   color: var(--red);
   background-color: var(--very-light-red);
 }
