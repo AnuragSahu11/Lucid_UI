@@ -141,11 +141,11 @@
 /* button disabled */
 
 .btn-disabled {
-  background-color: var(--font-lighter);
+  background-color: var(--grey);
   cursor: auto;
 }
 .btn-disabled:hover {
-  background-color: var(--font-lighter);
+  background-color: var(--grey);
   cursor: auto;
 }
 
@@ -157,6 +157,9 @@
   cursor: pointer;
   color: inherit;
 }
+.btn-close:hover{
+  color: var(--red);
+}
 
 /* button vertical */
 
@@ -167,7 +170,14 @@
   margin-top: 5px;
 }
 
+/* button grey */
+
+.btn-grey{
+  background-color: var(--font-lighter);
+}
+.btn-grey:hover{
+  background-color: var(--font-light);
+}
+
 /* button horizontal */
 
-.btn-horizontal {
-}

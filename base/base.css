@@ -25,7 +25,8 @@ body {
   --font-dark: #171717;
   --font-light: #757575;
   --font-lighter: #9e9e9e;
-  --grey: #ffffff;
+  --grey: #E0E0E0;
+  --light-grey: #ffffff;
   --blue: #3d53f5;
   --red: #df1642;
   --green: #18a957;
@@ -37,6 +38,7 @@ body {
   --white: white;
   --black: black;
   --hover: #6475f7;
+  --hover-red:#fe0c0c;
 }
 
 /* spacing variables*/

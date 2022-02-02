@@ -43,7 +43,7 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 2.5;
+  line-height: 1.5;
   letter-spacing: 0px;
   text-align: left;
 }
@@ -74,6 +74,12 @@
 }
 .has-white {
   background-color: var(--white);
+}
+.has-grey{
+  background-color: var(--grey);
+}
+.has-dark-grey{
+  background-color: var(--font-lighter);
 }
 
 /* colors,font colors */
