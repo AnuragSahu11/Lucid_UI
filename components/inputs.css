@@ -35,6 +35,13 @@
   margin-top: var(--m);
 }
 
+.form-div i {
+  font-size: var(--is-3);
+  position: absolute;
+  padding: var(--xs);
+  text-align: left;
+}
+
 /* form label */
 
 .form-label {
@@ -68,12 +75,6 @@
 .input-error {
   border: var(--border) solid var(--red);
 }
-.form-box i {
-  font-size: var(--is-3);
-  position: absolute;
-  padding: var(--xs);
-  text-align: left;
-}
 
 /* form textarea */
 
@@ -96,13 +97,13 @@
   display: flex;
   width: 100%;
 }
-.radio-label {
+.form-radio-label {
   padding: var(--micro);
   display: flex;
   align-items: center;
   font-size: var(--is-2);
 }
-.radio-button-text {
+.form-radio-button-text {
   margin-left: var(--micro);
 }
 
