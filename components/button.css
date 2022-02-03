@@ -36,8 +36,8 @@
   font-weight: var(--bold);
   cursor: pointer;
   font-size: 2.1rem;
-  width: 121px;
-  height: 48px;
+  width: 12rem;
+  height: 4.8rem;
   padding: var(--xxs) var(--s);
   min-width: fit-content;
   min-height: fit-content;
@@ -46,8 +46,8 @@
 }
 .btn-medium {
   font-weight: var(--bold);
-  width: 100px;
-  height: 40px;
+  width: 10rem;
+  height: 4rem;
   cursor: pointer;
   font-size: var(--is-3);
   background-color: var(--primary);
@@ -63,8 +63,8 @@
   cursor: pointer;
   font-size: 1.4rem;
   background-color: var(--primary);
-  width: 91px;
-  height: 32px;
+  width: 9rem;
+  height: 3.2rem;
   padding: var(--xxs) var(--s);
   min-width: fit-content;
   min-height: fit-content;
@@ -73,7 +73,7 @@
   color: var(--white);
 }
 .btn-rounded {
-  border-radius: 30px;
+  border-radius: 3rem;
 }
 
 /* button with icons */
@@ -97,6 +97,9 @@
   border: none;
   cursor: pointer;
 }
+.btn-icon:hover {
+  background-color: var(--grey);
+}
 
 /* button float */
 
@@ -107,8 +110,8 @@
   text-decoration: none;
   color: var(--white);
   font-size: var(--is-3);
-  width: 50px;
-  height: 50px;
+  width: 5rem;
+  height: 5rem;
   border-radius: var(--border-radius-circle);
   background-color: var(--primary);
 }
@@ -157,7 +160,7 @@
   cursor: pointer;
   color: inherit;
 }
-.btn-close:hover{
+.btn-close:hover {
   color: var(--red);
 }
 
@@ -172,10 +175,10 @@
 
 /* button grey */
 
-.btn-grey{
+.btn-grey {
   background-color: var(--font-lighter);
 }
-.btn-grey:hover{
+.btn-grey:hover {
   background-color: var(--font-light);
 }
 
