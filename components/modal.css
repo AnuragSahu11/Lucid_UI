@@ -1,0 +1,32 @@
+/* image responsive */
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+/* image round */
+
+.img-round {
+  border-radius: var(--border-radius-circle);
+}
+
+/* modal */
+
+.modal {
+  position: relative;
+  text-align: center;
+  padding: var(--l) var(--s);
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 30rem;
+  border-radius: var(--border-radius-m);
+  justify-content: center;
+}
+
+/* modal icon */
+
+.modal-icon {
+  font-size: var(--is-6);
+}
