@@ -181,3 +181,10 @@
 .btn-grey:hover {
   background-color: var(--font-light);
 }
+
+/* button horizontal */
+
+.btn-horizontal{
+  display: flex;
+  justify-content: space-evenly;
+}
