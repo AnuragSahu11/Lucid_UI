@@ -101,7 +101,7 @@
   font-size: var(--is-3);
 }
 .nav-start > * {
-  font-weight: var(--semibold);
+  font-weight: var(--semi-bold);
   color: var(--font-light);
   text-decoration: none;
 }
