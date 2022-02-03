@@ -41,7 +41,7 @@
   grid-column: 2/3;
 }
 
-/* 33 33 33 grid */
+/* 3 col grid */
 
 .grid-3 {
   display: grid;
@@ -61,6 +61,8 @@
   display: grid;
   grid-template-columns: 20% 80%;
 }
+
+/* media queries for grid only mobile */
 
 @media only screen and (max-width: 480px) {
   .grid-4 {
@@ -90,15 +92,63 @@
   }
 }
 
-body {
-  height: 100vh;
+/* navbar */
+
+.navbar {
+  background-color: white;
+  padding-left: 3%;
+  padding-right: 3%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--m);
+  padding-bottom: var(--m);
 }
-.one {
-  background-color: aqua;
+
+/* nav brand, logo */
+
+.nav-brand {
+  width: 10%;
 }
-.two {
-  background-color: blueviolet;
+.logo-a {
+  font-size: var(--is-5);
+  color: var(--font-dark);
 }
-.three {
-  background-color: red;
+
+/* nav menu , links */
+
+.nav-menu {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+.nav-start {
+  font-size: var(--is-3);
+}
+.nav-start > * {
+  font-weight: var(--semibold);
+  color: var(--font-light);
+  text-decoration: none;
+}
+.nav-start > *:hover {
+  color: var(--font-dark);
+}
+.nav-start :nth-child(n + 2) {
+  margin-left: 30px;
+}
+
+/* nav end buttons */
+
+.nav-end {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+.nav-btn {
+  margin-left: var(--xs);
+}
+.nav-end > button > i {
+  color: var(--font-dark);
+}
+.nav-icons {
+  background: transparent;
 }
