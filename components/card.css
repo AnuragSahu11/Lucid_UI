@@ -3,7 +3,6 @@
 .card {
   width: 310px;
   border-radius: var(--xs);
-  min-height: 430px;
   height: fit-content;
   display: flex;
   flex-wrap: wrap;

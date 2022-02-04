@@ -1,2 +1,4 @@
 *.html
 !index.html
+!documentation.html
+!install.html

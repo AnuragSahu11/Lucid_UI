@@ -45,7 +45,7 @@
 
 /* alert fail */
 
-.alert-fail {
+.alert-error {
   border: solid var(--border) var(--red);
   color: var(--red);
   background-color: var(--very-light-red);

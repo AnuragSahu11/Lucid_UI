@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/main.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/91dae358d6.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Lucid Ui | Documentation</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar li-shadow">
+      <div class="nav-brand">
+        <a href="" class="logo-a">
+          <i class="fas fa-suitcase"></i>
+        </a>
+      </div>
+      <div class="nav-hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="nav-menu">
+        <div class="nav-start">
+          <a href="" class="nav-item link">Home</a>
+          <a href="" class="nav-item link">Introduction</a>
+          <a href="" class="nav-item link">Documentation</a>
+        </div>
+        <div class="nav-end">
+          <a href="">
+            <button class="btn-icon nav-icons m-x-1">
+              <i class="fab fa-twitter-square is-4"></i>
+            </button>
+          </a>
+          <a href="">
+            <button class="btn-icon nav-icons m-x-1">
+              <i class="fab fa-linkedin is-4"></i>
+            </button>
+          </a>
+
+          <a href="">
+            <button class="btn-icon nav-icons m-x-1">
+              <i class="fab fa-github-square is-4"></i>
+            </button>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Documentation -->
+
+    <div class="grid-20-80">
+      <!-- component-list -->
+
+      <div class="component-list li-shadow p-l-5">
+        <div class="textbox flex-col">
+          <div class="title is-4 p-y-2">Components</div>
+          <a href="" class="link m-up-1 is-black is-3">Alert</a>
+          <a href="" class="link m-up-1 is-black is-3">Avatar</a>
+        </div>
+      </div>
+
+      <!-- components -->
+
+      <div class="component p-x-3">
+        <!-- Alert -->
+        <div class="component-section">
+          <div class="textbox">
+            <div class="title p-y-1 is-6">Alert</div>
+            <div class="subtitle regular is-4">
+              Alerts are used to attract user's attention for important
+              information without interrupting the user's flow.
+            </div>
+            <p class="text is-3 is-dark">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Temporibus repellendus expedita nemo iure aspernatur, nesciunt
+              assumenda quaerat mollitia earum magnam unde tenetur laboriosam
+              suscipit consequuntur nisi voluptas, dolores nam impedit?
+            </p>
+          </div>
+          <div class="showcase flex-col m-y-4">
+            <!-- info alert -->
+            <div class="alert alert-info is-3 semibold">
+              <i class="alert-icon fas fa-info-circle"></i>
+              <p class="alert-text">This is an example of info Alert!</p>
+            </div>
+            <!-- alert success -->
+            <div class="alert alert-success is-3 semibold">
+              <i class="alert-icon fas fa-check-circle"></i>
+              <p class="alert-text">This is an example of success Alert!</p>
+            </div>
+            <!-- alert warning -->
+            <div class="alert alert-warning is-3 semibold">
+              <i class="alert-icon fas fa-exclamation-triangle"></i>
+              <p class="alert-text">This is an example of warning Alert!</p>
+            </div>
+            <!-- alert error -->
+            <div class="alert alert-error is-3 alert-close">
+              <i class="alert-icon fas fa-exclamation-circle"></i>
+              <p class="alert-text">
+                This is an example of error Alert with close button!
+              </p>
+              <button class="btn-close"><i class="fas fa-times"></i></button>
+            </div>
+            <!-- alert with link -->
+            <div class="alert alert-info is-3 alert-link">
+              <i class="alert-icon fas fa-info-circle"></i>
+              <p class="alert-text">
+                This is an example of primary Alert with a link.
+              </p>
+              <a class="link underline" href="">Check this</a>
+            </div>
+          </div>
+          <div class="code-snippet m-y-4">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2814%2C13%2C12%2C0%29&t=vscode&wt=sharp&l=htmlmixed&width=816.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=147%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520info%2520alert%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-info%2520is-3%2520semibold%2522%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522alert-icon%2520fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%253Cp%2520class%253D%2522alert-text%2522%253EThis%2520is%2520an%2520example%2520of%2520info%2520Alert%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520alert%2520success%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-success%2520is-3%2520semibold%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522alert-icon%2520fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253Cp%2520class%253D%2522alert-text%2522%253EThis%2520is%2520an%2520example%2520of%2520success%2520Alert%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520alert%2520warning%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-warning%2520is-3%2520semibold%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522alert-icon%2520fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fi%253E%253Cp%2520class%253D%2522alert-text%2522%253EThis%2520is%2520an%2520example%2520of%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520warning%2520Alert%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520alert%2520error%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-error%2520is-3%2520alert-close%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522alert-icon%2520fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%253Cp%2520class%253D%2522alert-text%2522%253EThis%2520is%2520an%2520example%2520of%2520error%2520Alert%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520with%2520close%2520button%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-close%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520alert%2520with%2520link%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-info%2520is-3%2520alert-link%2522%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522alert-icon%2520fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%253Cp%2520class%253D%2522alert-text%2522%253E%2520This%2520is%2520an%2520example%2520of%2520primary%2520Alert%2520with%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520a%2520link.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link%2520underline%2522%2520href%253D%2522%2522%253ECheck%2520this%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="
+                  width: 1024px;
+                  height: 400px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+        </div>
+        <!-- Avaatar -->
+        <div class="component-section">
+          <div class="textbox">
+            <div class="title p-y-1 is-6">Avatar</div>
+            <div class="subtitle regular is-4">
+              Avatar can be used to show user's profile picture on profile
+              information page, on navigation bar, in blogs grid items.
+            </div>
+            <p class="text is-3 is-dark">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Temporibus repellendus expedita nemo iure aspernatur, nesciunt
+              assumenda quaerat mollitia earum magnam unde tenetur laboriosam
+              suscipit consequuntur nisi voluptas, dolores nam impedit?
+            </p>
+          </div>
+          <div class="showcase avatar-showcase flex-row m-y-4">
+            <!-- avatar xs -->
+            <div class="avatar-xs">
+              <img src="avatar-male.jpg" alt="" class="" />
+            </div>
+            <!-- avatar s -->
+            <div class="avatar-s">
+              <img src="avatar-male.jpg" alt="" class="" />
+            </div>
+            <!-- avatar m -->
+            <div class="avatar-m">
+              <img src="avatar-male.jpg" alt="" class="" />
+            </div>
+            <!-- avatar l -->
+            <div class="avatar-l">
+              <img src="avatar-male.jpg" alt="" class="" />
+            </div>
+            <!-- avatar xl -->
+            <div class="avatar-xl">
+              <img src="avatar-male.jpg" alt="" class="" />
+            </div>
+            <!-- text only avatar -->
+            <div class="avatar-s avatar-with-text">
+              <p>AB</p>
+            </div>
+            <div class="avatar-m avatar-with-text">
+              <p>AB</p>
+            </div>
+            <div class="avatar-l avatar-with-text">
+              <p>AB</p>
+            </div>
+            <div class="avatar-xl avatar-with-text">
+              <p>AB</p>
+            </div>
+          </div>
+          <div class="code-snippet m-y-4">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2814%2C13%2C12%2C0%29&t=vscode&wt=sharp&l=htmlmixed&width=816.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=147%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520avatar%2520xs%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-xs%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522avatar-male.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520avatar%2520s%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-s%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522avatar-male.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520avatar%2520m%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-m%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522avatar-male.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520avatar%2520l%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-l%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522avatar-male.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520avatar%2520xl%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-xl%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522avatar-male.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520text%2520only%2520avatar%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-s%2520avatar-with-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EAB%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-m%2520avatar-with-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EAB%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-l%2520avatar-with-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EAB%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-xl%2520avatar-with-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EAB%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="
+                  width: 492px;
+                  height: 500px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+        </div>
+        <!-- Badge -->
+        <div class="component-section">
+          <div class="textbox">
+            <div class="title p-y-1 is-6">Badge</div>
+            <div class="subtitle regular is-4">
+              Badges are being used to display a notification count or status
+              information
+            </div>
+            <p class="text is-3 is-dark">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Temporibus repellendus expedita nemo iure aspernatur, nesciunt
+              assumenda quaerat mollitia earum magnam unde tenetur laboriosam
+              suscipit consequuntur nisi voluptas, dolores nam impedit?
+            </p>
+          </div>
+          <div class="showcase m-y-4"></div>
+          <div class="code-snippet m-y-4">
+            <code> </code>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

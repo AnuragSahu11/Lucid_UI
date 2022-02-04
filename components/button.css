@@ -8,11 +8,13 @@
   font-size: inherit;
   color: var(--primary);
   font-weight: var(--bold);
-  text-decoration: underline;
-  text-underline-position: under;
 }
 .link:hover {
   color: var(--secondary);
+}
+.underline{
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 /* secondary link */
