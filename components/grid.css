@@ -66,6 +66,10 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+  .grid-20-80{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 /* navbar */
