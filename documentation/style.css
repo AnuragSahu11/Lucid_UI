@@ -4,7 +4,38 @@
 .showcase >*{
     margin-top: var(--s);
 }
-
+.avatar-showcase{
+    width: 100%;
+}
 .avatar-showcase >*{
     margin-right: 10px;
 }
+.badge-showcase >*{
+    margin-right: 100px;
+}
+.button-showcase{
+    align-items: center;
+    width: 100%;
+}
+.button-showcase >*{
+    margin-right: 70px;
+}
+.cards-showcase {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.form-showcase{
+    width:50%;
+}
+.img-showcase{
+    width: 50%;
+}
+
+/* Carbon code snippet responsive */
+
+@media only screen and (max-width: 480px) {
+   code iframe{
+       width: 100px; 
+   }
+  }
