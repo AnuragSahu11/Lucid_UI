@@ -10,9 +10,9 @@
   font-size: 4.4px;
 }
 .avatar-xs img {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
+  width: var(--l);
+  height: var(--l);
+  border-radius: var(--border-radius-circle);
   border: solid 1px var(--primary);
 }
 
@@ -21,13 +21,14 @@
 .avatar-s {
   position: relative;
   vertical-align: middle;
-  font-size: 7.3px;
-  border-radius: 50%;
+  font-size: var(--is-1);
+  border-radius: var(--border-radius-circle);
+  font-weight: var(--semi-bold);
 }
 .avatar-s img {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
+  border-radius: var(--border-radius-circle);
   border: solid 2px var(--primary);
 }
 
@@ -36,13 +37,14 @@
 .avatar-m {
   position: relative;
   vertical-align: middle;
-  font-size: 10px;
+  font-size: var(--2);
+  font-weight: var(--semi-bold);
 }
 .avatar-m img {
   width: 70px;
   height: 70px;
-  border-radius: 50%;
-  border: solid 3px var(--primary);
+  border-radius: var(--border-radius-circle);
+  border: solid var(--micro) var(--primary);
 }
 
 /* avatar l */
@@ -55,8 +57,8 @@
 .avatar-l img {
   width: 90px;
   height: 90px;
-  border-radius: 50%;
-  border: solid 3px var(--primary);
+  border-radius: var(--border-radius-circle);
+  border: solid var(--micro) var(--primary);
 }
 
 /* avatar xl */
@@ -69,8 +71,8 @@
 .avatar-xl img {
   width: 120px;
   height: 120px;
-  border-radius: 50%;
-  border: solid 3px var(--primary);
+  border-radius: var(--border-radius-circle);
+  border: solid var(--micro) var(--primary);
 }
 
 /* avatar with badge */
@@ -83,5 +85,53 @@
   height: 2em;
   width: 2em;
   background-color: var(--primary);
-  border-radius: 50%;
+  border-radius: var(--border-radius-circle);
+}
+
+/* avatar with text */
+
+.avatar-with-text {
+  display: inline-flex;
+  background-color: var(--tertiary);
+  width: 7em;
+  height: 7em;
+  border-radius: var(--border-radius-circle);
+  justify-content: center;
+  align-items: center;
+  border: solid var(--micro) var(--primary);
+}
+.avatar-with-text p {
+  font-size: 3em;
+  color: var(--dark);
+}
+
+/* icon badge */
+
+.icon-badge {
+  position: relative;
+}
+.icon-badge span {
+  position: absolute;
+  width: 0.7em;
+  height: 0.7em;
+  right: -0.45em;
+  top: -0.35em;
+  background-color: var(--primary);
+  border-radius: var(--border-radius-circle);
+}
+
+/* text badge */
+
+.text-badge {
+  position: relative;
+}
+.text-badge span {
+  font-size: 0.8em;
+  margin-left: 0.1em;
+  border-radius: 0.7em;
+  position: absolute;
+  color: var(--white);
+  background-color: var(--primary);
+  padding-left: 0.3em;
+  padding-right: 0.3em;
 }
