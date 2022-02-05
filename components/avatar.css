@@ -21,7 +21,7 @@
 .avatar-s {
   position: relative;
   vertical-align: middle;
-  font-size: 7px;
+  font-size: var(--is-1);
   border-radius: var(--border-radius-circle);
   font-weight: var(--semi-bold);
 }
