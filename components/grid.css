@@ -133,6 +133,9 @@
   margin-left: auto;
   align-items: center;
 }
+.nav-search {
+  flex-basis: fit-content;
+}
 .nav-btn {
   margin-left: var(--xs);
 }
@@ -150,6 +153,10 @@
 /* navbar responsive */
 
 @media only screen and (max-width: 1280px) {
+  .navbar{
+    padding-left: 1%;
+    padding-right: 1%;
+  }
   .nav-brand {
     width: 7%;
   }
@@ -158,6 +165,12 @@
   }
   .nav-start {
     font-size: var(--is-2);
+  }
+  .nav-end{
+    justify-content: flex-end;
+  }
+  .nav-search {
+    flex-basis: fit-content;
   }
 }
 @media only screen and (max-width: 1024px) {
