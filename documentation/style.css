@@ -1,41 +1,96 @@
-.hero-img{
-    width: 90%;
+.hero-img {
+  width: 90%;
 }
-.showcase >*{
-    margin-top: var(--s);
+
+
+
+/* documentation */
+
+.grid-documentation {
+  position: relative;
+  z-index: 3;
 }
-.avatar-showcase{
-    width: 100%;
+.component {
+  z-index: 1;
 }
-.avatar-showcase >*{
-    margin-right: 10px;
+.component-list {
+  z-index: 2;
 }
-.badge-showcase >*{
-    margin-right: 100px;
+.component-list > .textbox {
+  top: 0;
+  position: sticky;
 }
-.button-showcase{
-    align-items: center;
-    width: 100%;
+.showcase > * {
+  margin-top: var(--s);
 }
-.button-showcase >*{
-    margin-right: 70px;
+.avatar-showcase {
+  flex-wrap: wrap;
+  width: 100%;
+}
+.avatar-showcase > * {
+  margin-right: 10px;
+}
+.badge-showcase > * {
+  margin-right: 100px;
+}
+.button-showcase {
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+.button-showcase > * {
+  margin-right: 70px;
 }
 .cards-showcase {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
-.form-showcase{
-    width:50%;
+.form-showcase {
+  width: 70%;
 }
-.img-showcase{
+.img-showcase {
+  width: 100%;
+}
+.img-showcase :nth-child(2){
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     width: 50%;
-}
+  }
 
 /* Carbon code snippet responsive */
 
+code iframe {
+  width: 70vw;
+  background-color: #1e1e1e;
+}
+
 @media only screen and (max-width: 480px) {
-   code iframe{
-       width: 100px; 
-   }
+  code iframe {
+    width: 400px;
   }
+}
+
+/* on mobile size make navbar disappear */
+
+@media only screen and (max-width: 480px) {
+}
+
+/* component-list responsive */
+
+@media only screen and (max-width: 1024px) {
+  .component-list .textbox .title {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .component-list {
+    display: none;
+  }
+  .component {
+    width: 90vw;
+  }
+}
