@@ -2,8 +2,8 @@
 /* font is imported below */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;900&display=swap");
-@import "/base/css/fontawesome.min.css";
-@import "/base/css/solid.min.css";
+@import url("https://silly-lichterman-2172c3.netlify.app/base/css/fontawesome.min.css");
+@import url("https://silly-lichterman-2172c3.netlify.app/base/css/solid.min.css");
 
 /* fonts */
 
@@ -22,11 +22,11 @@ body {
   --primary: #3d53f5;
   --secondary: #563fd8;
   --tertiary: #c7e8f3;
+  --accent:#fafbff;
   --font-dark: #171717;
   --font-light: #757575;
   --font-lighter: #9e9e9e;
   --grey: #e0e0e0;
-  --light-grey: #ffffff;
   --blue: #3d53f5;
   --red: #df1642;
   --green: #18a957;

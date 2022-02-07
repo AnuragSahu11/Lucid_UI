@@ -90,7 +90,7 @@
 
 /* avatar with text */
 
-.avatar-with-text {
+.avatar-text {
   display: inline-flex;
   background-color: var(--tertiary);
   width: 7em;
@@ -100,7 +100,7 @@
   align-items: center;
   border: solid var(--micro) var(--primary);
 }
-.avatar-with-text p {
+.avatar-text p {
   font-size: 3em;
   color: var(--dark);
 }

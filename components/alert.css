@@ -7,12 +7,11 @@
   align-items: center;
   border-radius: var(--xs);
   padding: 0px var(--xxs);
-
 }
 .alert .alert-icon {
   font-size: 1.5em;
 }
-.alert .alert-text{
+.alert .alert-text {
   margin: 0.3em 0em 0.3em 10px;
 }
 
@@ -45,7 +44,7 @@
 
 /* alert fail */
 
-.alert-fail {
+.alert-error {
   border: solid var(--border) var(--red);
   color: var(--red);
   background-color: var(--very-light-red);
@@ -53,12 +52,12 @@
 
 /* Alert with close */
 
-.alert-close button{
-    margin-left: var(--xxs);
+.alert-close button {
+  margin-left: auto;
 }
 
 /* Alert with link */
 
-.alert .link{
+.alert .link {
   margin-left: var(--xxs);
 }

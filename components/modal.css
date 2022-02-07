@@ -9,6 +9,7 @@
 
 .img-round {
   border-radius: var(--border-radius-circle);
+  width: 100%;
 }
 
 /* modal */
