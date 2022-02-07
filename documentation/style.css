@@ -58,6 +58,11 @@
   margin-bottom: auto;
   width: 50%;
 }
+/* horizontak card showcase */
+
+.showcase-horizontal-card {
+  height: min-content;
+}
 
 /* showcase navbar customization */
 .nav-end {
