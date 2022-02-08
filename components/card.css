@@ -29,8 +29,10 @@
 .card-image-img {
   margin-left: auto;
   margin-right: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
   display: block;
+  object-fit: fill;
 }
 
 /* card cross */
@@ -54,7 +56,7 @@
   right: var(--xxs);
   cursor: pointer;
 }
-.card-icon:hover {
+.card-icon i:hover {
   color: var(--hover-red);
 }
 
@@ -99,7 +101,7 @@
   flex-direction: row;
   display: flex;
   min-width: min-content;
-  width: 70rem;
+  width: auto;
   flex-wrap: nowrap;
   max-width: fit-content;
   min-height: min-content;
@@ -111,7 +113,6 @@
 .card-horizontal .card-head .card-image {
   border-radius: var(--xs);
   overflow: hidden;
-  
 }
 .card-horizontal .card-head .card-icon {
   color: var(--white);
@@ -122,21 +123,31 @@
 
 @media only screen and (max-width: 480px) {
   .card-horizontal .card-head {
+    width: 25%;
+    overflow: hidden;
+  }
+  .card-horizontal .card-head .card-image {
+    width: 100px;
+  }
+  .card-horizontal {
+    justify-content: right;
+  }
+  .card-horizontal .card-head {
     width: min-content;
     overflow: hidden;
   }
-  .card-horizontal .card-body{
+  .card-horizontal .card-body {
     padding-right: 0px;
     padding-left: var(--xs);
   }
-  .card-horizontal .card-body .btn-horizontal{
+  .card-horizontal .card-body .btn-horizontal {
     display: flex;
     flex-direction: column;
   }
-  .card-horizontal .card-body .btn-horizontal > :nth-child(2){
+  .card-horizontal .card-body .btn-horizontal > :nth-child(2) {
     margin-top: var(--xs);
   }
- }
+}
 
 /* card text only */
 

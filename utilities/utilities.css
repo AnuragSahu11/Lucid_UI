@@ -85,10 +85,10 @@
 .has-dark-grey {
   background-color: var(--font-lighter);
 }
-.has-accent{
+.has-accent {
   background-color: var(--accent);
 }
-.has-light-blue{
+.has-light-blue {
   background-color: var(--very-light-blue);
 }
 
@@ -128,8 +128,9 @@
 .li-shadow {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.dk-shadow{
-  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+.dk-shadow {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
 }
 
 /* typography */
@@ -178,6 +179,13 @@
 }
 .bolder {
   font-weight: 900;
+}
+
+/* scale */
+
+.scale-1:hover {
+  transition: 0.3s;
+  transform: scale(1.15);
 }
 
 /* spacing */
@@ -374,7 +382,6 @@
   margin-right: 64px;
 }
 
-
 /* padding up */
 
 .p-up-1 {
@@ -493,6 +500,23 @@
 .float-left {
   margin-right: auto;
 }
+
+/* width */
+
+.width-20 {
+  width: 20%;
+}
+.width-50 {
+  width: 50%;
+}
+.width-80 {
+  width: 80%;
+}
+.width-100 {
+  width: 100%;
+}
+
+/* flex */
 
 .flex-col {
   display: inline-flex;
