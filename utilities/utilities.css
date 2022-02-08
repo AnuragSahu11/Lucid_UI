@@ -91,6 +91,9 @@
 .has-light-blue {
   background-color: var(--very-light-blue);
 }
+.has-transparent{
+  background-color: transparent;
+}
 
 /* colors,font colors */
 
