@@ -528,3 +528,23 @@
 .flex-row {
   display: inline-flex;
 }
+.flex-r-w{
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex{
+  display: flex;
+}
+.space-evenly{
+  justify-content: space-evenly;
+}
+.justify-content-center{
+  justify-content: center;
+}
+
+
+/* cards image */
+.product-img{
+  width: 70%;
+  height: 100%;
+}
