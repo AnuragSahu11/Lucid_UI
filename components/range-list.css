@@ -42,5 +42,5 @@
 }
 .notification-list-link .card-horizontal{
     color: var(--font-dark);
-    border: 1px solid black;
+    border: 1px solid var(--black);
 }
