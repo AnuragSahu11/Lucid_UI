@@ -128,7 +128,7 @@
   background-color: var(--primary);
 }
 .btn-primary:hover {
-  background-color: var(--hover);
+  opacity: 0.8;
 }
 
 /* button secondary */
@@ -141,6 +141,11 @@
 .btn-secondary:hover {
   border: solid 2px var(--hover);
   color: var(--hover);
+}
+.btn-secondary-grey{
+  background-color: transparent;
+  border: solid 2px var(--font-light);
+  color: var(--font-light);
 }
 
 /* button disabled */
