@@ -528,6 +528,11 @@
   width: 100%;
 }
 
+/* height */
+.height-100{
+  height: 100%;
+}
+
 /* flex */
 
 .flex-col {
@@ -572,4 +577,7 @@
 /* child margins */
 .child-m-xl > :nth-child(n + 2) {
   margin-top: var(--xl);
+}
+.child-m-s > :nth-child(n + 2) {
+  margin-top: var(--s);
 }

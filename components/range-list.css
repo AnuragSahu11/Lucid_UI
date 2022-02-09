@@ -40,3 +40,7 @@
 .list-square{
     list-style: square;
 }
+.notification-list-link .card-horizontal{
+    color: var(--font-dark);
+    border: 1px solid black;
+}
