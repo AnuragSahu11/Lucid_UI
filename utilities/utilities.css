@@ -91,7 +91,7 @@
 .has-light-blue {
   background-color: var(--very-light-blue);
 }
-.has-transparent{
+.has-transparent {
   background-color: transparent;
 }
 
@@ -177,6 +177,7 @@
 .semibold {
   font-weight: 600;
 }
+
 .bold {
   font-weight: 700;
 }
@@ -468,6 +469,14 @@
 .p-r-6 {
   padding-right: 64px;
 }
+.m-y-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.p-y-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 
 /* border radius */
 
@@ -528,23 +537,39 @@
 .flex-row {
   display: inline-flex;
 }
-.flex-r-w{
+
+.flex-r-w {
   display: flex;
   flex-wrap: wrap;
 }
-.flex{
+.flex-c-w {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.flex {
   display: flex;
 }
-.space-evenly{
+.space-evenly {
   justify-content: space-evenly;
 }
-.justify-content-center{
+.space-between {
+  justify-content: space-between;
+}
+.justify-content-center {
   justify-content: center;
 }
-
+.align-center {
+  align-items: center;
+}
 
 /* cards image */
-.product-img{
+.product-img {
   width: 70%;
   height: 100%;
+}
+
+/* child margins */
+.child-m-xl > :nth-child(n + 2) {
+  margin-top: var(--xl);
 }
