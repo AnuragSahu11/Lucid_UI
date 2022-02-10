@@ -58,24 +58,32 @@
       <div class="component-list li-shadow p-l-2">
         <div class="textbox flex-col">
           <div class="title is-4 p-y-2">Components</div>
-          <a href="#alert" class="link m-y-1 regular is-black is-4">Alert</a>
-          <a href="#avatar" class="link m-y-1 regular is-black is-4">Avatar</a>
-          <a href="#badge" class="link m-y-1 regular is-black is-4">Badge</a>
-          <a href="#button" class="link m-y-1 regular is-black is-4">Button</a>
-          <a href="#card" class="link m-y-1 regular is-black is-4">Card</a>
-          <a href="#form" class="link m-y-1 regular is-black is-4">Form</a>
-          <a href="#image" class="link m-y-1 regular is-black is-4">Image</a>
-          <a href="#modal" class="link m-y-1 regular is-black is-4">Modal</a>
-          <a href="#navigation" class="link m-y-1 regular is-black is-4"
+          <a href="#alert" class="link m-y-1 light is-black is-4">Alert</a>
+          <a href="#avatar" class="link m-y-1 light is-black is-4">Avatar</a>
+          <a href="#badge" class="link m-y-1 light is-black is-4">Badge</a>
+          <a href="#button" class="link m-y-1 light is-black is-4">Button</a>
+          <a href="#card" class="link m-y-1 light is-black is-4">Card</a>
+          <a href="#form" class="link m-y-1 light is-black is-4">Form</a>
+          <a href="#image" class="link m-y-1 light is-black is-4">Image</a>
+          <a href="#list" class="link m-y-1 light is-black is-4">List</a>
+
+          <a href="#modal" class="link m-y-1 light is-black is-4">Modal</a>
+          <a href="#navigation" class="link m-y-1 light is-black is-4"
             >Navigation</a
           >
-          <a href="#rating" class="link m-y-1 regular is-black is-4">Rating</a>
+          <a href="#rating" class="link m-y-1 light is-black is-4">Rating</a>
+          <a href="#grid" class="link m-y-1 light is-black is-4">Grid</a>
+          <a href="#typography" class="link m-y-1 light is-black is-4"
+            >Typography</a
+          >
+          <a href="#toast" class="link m-y-1 light is-black is-4">Toast</a>
+          <a href="#slider" class="link p-dw-4 light is-black is-4">Slider</a>
         </div>
       </div>
 
       <!-- components -->
 
-      <div class="component p-x-3">
+      <div class="component p-l-3">
         <!-- Alert -->
         <div class="component-section">
           <div class="textbox">
@@ -1101,7 +1109,7 @@
         <!-- LISTS -->
         <div class="component-section m-up-6">
           <div class="textbox">
-            <div id="List" class="title p-y-1 is-6">List</div>
+            <div id="list" class="title p-y-1 is-6">List</div>
             <div class="subtitle regular is-4">
               Lists can be used at so many places, navigation bar, stacked
               notifications, article pages, etc.
@@ -1424,7 +1432,7 @@
         <!-- GRID -->
         <div class="component-section">
           <div class="textbox">
-            <div id="rating" class="title p-y-1 is-6">Grid simplified</div>
+            <div id="grid" class="title p-y-1 is-6">Grid simplified</div>
             <div class="subtitle regular is-4">
               Use grid when you want sections in view.
             </div>
@@ -1706,6 +1714,182 @@
               </iframe>
             </code>
           </div>
+        </div>
+        <!-- Toast -->
+        <div class="component-section">
+          <div class="textbox">
+            <div id="toast" class="title p-y-1 is-6">Toast</div>
+            <div class="subtitle regular is-4">
+              This component can be used for toast or snackbar component. Toast
+              is mostly used to show feedback message. Snackbar is to used show
+              message that need user action
+            </div>
+            <p class="text is-3 is-dark">
+              Toast comes in three categories ranging from primary, success and
+              error.
+              <span style="color: var(--primary)">
+                create a toast wrapper and inside it add anyone of
+                toast-primary, toast-success, toast-error </span
+              >. Use the code snippet below for reference. Please note that by
+              default the toast visibility is hidden.
+            </p>
+          </div>
+          <div class="showcase toast-showcase m-y-6">
+            <div class="toast toast-success visible">
+              Success msg ...
+              <button class="btn-close text-left">
+                <i class="m-l-1 fas fa-times"></i>
+              </button>
+            </div>
+            <div class="toast toast-error visible">
+              Error msg ...
+              <button class="btn-close">
+                <i class="m-l-1 fas fa-times"></i>
+              </button>
+            </div>
+            <div class="toast toast-primary visible">
+              Primary msg ...
+              <button class="btn-close">
+                <i class="m-l-1 fas fa-times"></i>
+              </button>
+            </div>
+          </div>
+          <div class="code-snippet m-y-4">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2814%2C13%2C12%2C0%29&t=vscode&wt=sharp&l=htmlmixed&width=596&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=147%25&si=false&es=2x&wm=false&code=%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%253E%250A%2520%2520%2520%2520%2520%2520Success%2520msg%2520...%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-close%2522%253E%253Ci%2520class%253D%2522m-l-1%2520fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-error%2522%253E%250A%2520%2520%2520%2520%2520%2520Error%2520msg%2520...%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-close%2522%253E%253Ci%2520class%253D%2522m-l-1%2520fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520Primary%2520msg%2520...%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-close%2522%253E%253Ci%2520class%253D%2522m-l-1%2520fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="
+                  /* width: 596px; */
+                  height: 250px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+            <hr />
+          </div>
+        </div>
+        <!-- SLIDER -->
+        <div class="component-section">
+          <div class="textbox">
+            <div id="slider" class="title p-y-1 is-6">Slider</div>
+            <div class="subtitle regular is-4">
+              Sliders are used to decide range for something like sound in
+              videos, price in shopping sites, etc.
+            </div>
+            <p class="text is-3 is-dark">
+              Slider comes in three categories ranging from .
+              <span style="color: var(--primary)">
+                slider with range, slider with icon and slider disabled </span
+              >. Use the code snippet below for reference.
+            </p>
+          </div>
+          <div class="textbox">
+            <div class="subtitle is-4 m-up-4 is-dark">Ranged Slider</div>
+            <p class="text is-3 is-dark">
+              This slider has class name of quantity-slider you can manually set
+              the range.
+            </p>
+          </div>
+          <div class="showcase width-50 m-y-6">
+            <!-- quantity slider -->
+            <div class="quantity-slider">
+              <div class="slider-range">
+                <span class="slider-range-min">50</span>
+                <span class="slider-range-mid">100</span>
+                <span class="slider-range-max">200</span>
+              </div>
+              <input type="range" min="1" max="5000" class="slider" />
+            </div>
+          </div>
+          <div class="code-snippet m-y-4">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2814%2C13%2C12%2C0%29&t=vscode&wt=sharp&l=htmlmixed&width=596&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=147%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520quantity%2520slider%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522quantity-slider%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slider-range%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522slider-range-min%2522%253E50%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522slider-range-mid%2522%253E100%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522slider-range-max%2522%253E200%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520min%253D%25221%2522%2520max%253D%25225000%2522%2520class%253D%2522slider%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="
+                  /* width: 596px; */
+                  height: 222px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+          <div class="textbox">
+            <div class="subtitle is-4 m-up-4 is-dark">Icon Slider</div>
+            <p class="text is-3 is-dark">
+              You can attach an icon to this slider.
+            </p>
+          </div>
+          <div class="showcase width-50 m-y-6">
+            <div class="icon-slider">
+              <span class=""
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M22 0v24l-11-6v-2.278l9 4.909v-17.262l-9 4.91v-2.279l11-6zm-13 6v12h-7v-12h7z"
+                  /></svg
+              ></span>
+              <input type="range" min="1" max="5000" class="slider" />
+            </div>
+          </div>
+          <div class="code-snippet m-y-4">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2814%2C13%2C12%2C0%29&t=vscode&wt=sharp&l=htmlmixed&width=596&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=147%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522icon-slider%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Csvg%250A%2520%2520%2520%2520%2520%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%250A%2520%2520%2520%2520%2520%2520width%253D%252224%2522%250A%2520%2520%2520%2520%2520%2520height%253D%252224%2522%250A%2520%2520%2520%2520%2520%2520viewBox%253D%25220%25200%252024%252024%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Cpath%2520d%253D%2522M22%25200v24l-11-6v-2.278l9%25204.909v-17.262l-9%25204.91v-2.279l11-6zm-13%25206v12h-7v-12h7z%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%253C%252Fspan%253E%250A%2520%2520%253Cinput%2520type%253D%2522range%2522%2520min%253D%25221%2522%2520max%253D%25225000%2522%2520class%253D%2522slider%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A"
+                style="
+                  height: 250px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+          <div class="textbox">
+            <div class="subtitle is-4 m-up-4 is-dark">Disabled Slider</div>
+            <p class="text is-3 is-dark">
+              Just add disabled attribute to any of the above slider to make it
+              disabled slider.
+            </p>
+          </div>
+          <div class="showcase m-y-6">
+            <div class="grid-showcase grid-2">
+              <div class="icon-slider">
+                <span class=""
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M22 0v24l-11-6v-2.278l9 4.909v-17.262l-9 4.91v-2.279l11-6zm-13 6v12h-7v-12h7z"
+                    /></svg
+                ></span>
+                <input
+                  type="range"
+                  min="1"
+                  max="5000"
+                  class="slider"
+                  disabled
+                />
+              </div>
+            </div>
+          </div>
+          <hr />
         </div>
       </div>
     </div>
