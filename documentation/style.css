@@ -1,17 +1,18 @@
 .hero-img {
   width: 90%;
 }
-body{
+html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 /* documentation */
-.card-horizontal{
+.card-horizontal {
   max-width: 700px;
 }
-.notification-list-link .card-horizontal{
+.notification-list-link .card-horizontal {
   width: fit-content;
 }
-.toast-showcase .toast{
+.toast-showcase .toast {
   position: inherit;
   z-index: 0;
   width: fit-content;
@@ -77,22 +78,22 @@ body{
 }
 
 /* grid */
-.grid-showcase{
+.grid-showcase {
   width: 100%;
 }
-.grid-showcase > *{
-  height: 100px;  
+.grid-showcase > * {
+  height: 100px;
 }
-.one{
+.one {
   background-color: var(--primary);
 }
-.two{
+.two {
   background-color: var(--black);
 }
-.three{
+.three {
   background-color: var(--grey);
 }
-.four{
+.four {
   background-color: var(--font-light);
 }
 
@@ -177,4 +178,7 @@ code iframe {
     /* padding-right: 5px; */
     width: 90vw;
   }
+}
+.dis-none{
+  display: none;
 }
