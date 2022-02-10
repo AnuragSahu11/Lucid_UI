@@ -1098,7 +1098,152 @@
             <hr />
           </div>
         </div>
-
+        <!-- LISTS -->
+        <div class="component-section m-up-6">
+          <div class="textbox">
+            <div id="List" class="title p-y-1 is-6">List</div>
+            <div class="subtitle regular is-4">
+              Lists can be used at so many places, navigation bar, stacked
+              notifications, article pages, etc.
+            </div>
+            <div class="subtitle is-4 m-up-4 is-dark">
+              Unordered List, Ordered List and List with no Bullet
+            </div>
+            <p class="text is-3 is-dark">
+              Add class according to bullet style. To make lis ordered add an
+              additional class list-"roman, alpha". To make List with no Bullet
+              add a class list-none.Copy html code below and add your desired
+              list items.
+            </p>
+          </div>
+          <div class="showcase avatar-showcase flex-row m-y-6">
+            <div class="list-container">
+              <div class="title">Fruits</div>
+              <ul class="list">
+                <li class="list-items">apple</li>
+                <li class="list-items">mango</li>
+                <li class="list-items">jamun</li>
+                <li class="list-items">papita</li>
+                <li class="list-items">sitaful</li>
+              </ul>
+            </div>
+            <div class="list-container m-l-5">
+              <div class="title">Category</div>
+              <ol class="list list-roman">
+                <li class="list-items">apple</li>
+                <li class="list-items">mango</li>
+                <li class="list-items">jamun</li>
+                <li class="list-items">papita</li>
+                <li class="list-items">sitaful</li>
+              </ol>
+            </div>
+            <div class="list-container m-l-5">
+              <div class="title">Category</div>
+              <ol class="list list-none">
+                <li class="list-items">apple</li>
+                <li class="list-items">mango</li>
+                <li class="list-items">jamun</li>
+                <li class="list-items">papita</li>
+                <li class="list-items">sitaful</li>
+              </ol>
+            </div>
+          </div>
+          <div class="code-snippet m-y-6">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2814%2C13%2C12%2C0%29&t=vscode&wt=sharp&l=htmlmixed&width=848&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=147%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-container%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522title%2522%253EFruits%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-items%2522%253Eapple%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-items%2522%253Emango%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-items%2522%253Ejamun%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-items%2522%253Epapita%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-items%2522%253Esitaful%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-container%2520m-l-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522title%2522%253ECategory%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522list%2520list-roman%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-items%2522%253Eapple%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-items%2522%253Emango%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-items%2522%253Ejamun%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-items%2522%253Epapita%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-items%2522%253Esitaful%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-container%2520m-l-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522title%2522%253ECategory%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522list%2520list-none%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-items%2522%253Eapple%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-items%2522%253Emango%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-items%2522%253Ejamun%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-items%2522%253Epapita%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-items%2522%253Esitaful%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="
+                  height: 500px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+          <div class="textbox">
+            <div class="subtitle is-4 is-dark">Notification Stacked List</div>
+            <p class="text is-3 is-dark">
+              This is stacked list without bullets. We can add desired component
+              inside "li" element. Check below code for cards in stacked list.
+            </p>
+          </div>
+          <div class="showcase flex-c-w">
+            <div class="notification-list">
+              <ul class="list child-m-s">
+                <li class="list-items list-none">
+                  <a href="" class="notification-list-link">
+                    <div class="card card-horizontal">
+                      <div class="card-head">
+                        <div class="card-image">
+                          <img
+                            src="https://picsum.photos/120/255"
+                            alt="card image"
+                            srcset=""
+                            class="card-image-img"
+                          />
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <div class="textbox">
+                          <div class="title semibold">Cart Title</div>
+                          <div class="subtitle">Subtitle</div>
+                        </div>
+                        <div class="textbox">
+                          <p class="text">Lorem ipsum</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="list-items list-none">
+                  <a href="" class="notification-list-link">
+                    <div class="card card-horizontal">
+                      <div class="card-head">
+                        <div class="card-image">
+                          <img
+                            src="https://picsum.photos/120/255"
+                            alt="card image"
+                            srcset=""
+                            class="card-image-img"
+                          />
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <div class="textbox">
+                          <div class="title semibold">Cart Title</div>
+                          <div class="subtitle">Subtitle</div>
+                        </div>
+                        <div class="textbox">
+                          <p class="text">Lorem ipsum</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="code-snippet m-y-6">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2814%2C13%2C12%2C0%29&t=vscode&wt=sharp&l=htmlmixed&width=848&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=147%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522notification-list%2522%253E%250A%2520%2520%253Cul%2520class%253D%2522list%2520child-m-s%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-items%2520list-none%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522notification-list-link%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card-horizontal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-head%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F120%252F255%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card%2520image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520srcset%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-image-img%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522textbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522title%2520semibold%2522%253ECart%2520Title%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522subtitle%2522%253ESubtitle%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522textbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text%2522%253ELorem%2520ipsum%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-items%2520list-none%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522notification-list-link%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card-horizontal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-head%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F120%252F255%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card%2520image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520srcset%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-image-img%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522textbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522title%2520semibold%2522%253ECart%2520Title%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522subtitle%2522%253ESubtitle%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522textbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text%2522%253ELorem%2520ipsum%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E%250A"
+                style="
+                  /* width: 484px; */
+                  height: 500px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+            <hr />
+          </div>
+        </div>
         <!-- modal -->
         <div class="component-section m-up-6">
           <div class="textbox">
@@ -1274,6 +1419,292 @@
               </iframe>
             </code>
             <hr />
+          </div>
+        </div>
+        <!-- GRID -->
+        <div class="component-section">
+          <div class="textbox">
+            <div id="rating" class="title p-y-1 is-6">Grid simplified</div>
+            <div class="subtitle regular is-4">
+              Use grid when you want sections in view.
+            </div>
+            <p class="text is-3 is-dark">
+              Lucid Ui contains 6 types of grid classes.
+              <span style="color: var(--primary)">
+                To create a grid add on of the 6 classes grid-2, grid-3, grid-4,
+                grid-30-70, grid-70-30, grid-20-80 </span
+              >. Use the code snippet below for reference.
+            </p>
+          </div>
+          <div class="textbox">
+            <div class="subtitle is-4 m-up-4 is-dark">Grid-2</div>
+            <p class="text is-3 is-dark">
+              This grid creates a 2 equally divided grid.
+            </p>
+          </div>
+          <div class="showcase m-y-6">
+            <div class="grid-showcase grid-2">
+              <div class="one"></div>
+              <div class="two"></div>
+            </div>
+          </div>
+          <div class="code-snippet m-y-4">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2814%2C13%2C12%2C0%29&t=vscode&wt=sharp&l=htmlmixed&width=848&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=147%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="
+                  /* width: 276px; */
+                  height: 148px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+          <div class="textbox">
+            <div class="subtitle is-4 m-up-4 is-dark">Grid-3</div>
+            <p class="text is-3 is-dark">
+              This grid creates a 3 equally divided grid.
+            </p>
+          </div>
+          <div class="showcase m-y-6">
+            <div class="grid-showcase grid-3">
+              <div class="one"></div>
+              <div class="two"></div>
+              <div class="three"></div>
+            </div>
+          </div>
+          <div class="code-snippet m-y-4">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2814%2C13%2C12%2C0%29&t=vscode&wt=sharp&l=htmlmixed&width=848&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=147%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="
+                  /* width: 276px; */
+                  height: 166px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+          <div class="textbox">
+            <div class="subtitle is-4 m-up-4 is-dark">Grid-4</div>
+            <p class="text is-3 is-dark">
+              This grid creates a 4 equally divided grid.
+            </p>
+          </div>
+          <div class="showcase m-y-6">
+            <div class="grid-showcase grid-4">
+              <div class="one"></div>
+              <div class="two"></div>
+              <div class="three"></div>
+              <div class="four"></div>
+            </div>
+          </div>
+          <div class="code-snippet m-y-4">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2814%2C13%2C12%2C0%29&t=vscode&wt=sharp&l=htmlmixed&width=848&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=147%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="
+                  /* width: 276px; */
+                  height: 184px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+          <div class="textbox">
+            <div class="subtitle is-4 m-up-4 is-dark">Unequal grids</div>
+            <p class="text is-3 is-dark">
+              We have 3 grids in Unequal category,
+              <span style="color: var(--primary)"
+                >grid-30-70 , grid-70-30 , grid-20-80</span
+              >. They divide grid into 2 sections of respective percentages.
+            </p>
+          </div>
+          <div class="showcase m-y-6">
+            <div class="grid-showcase grid-30-70">
+              <div class="one"></div>
+              <div class="two"></div>
+            </div>
+            <div class="grid-showcase grid-70-30">
+              <div class="one"></div>
+              <div class="two"></div>
+            </div>
+            <div class="grid-showcase grid-20-80">
+              <div class="one"></div>
+              <div class="two"></div>
+            </div>
+          </div>
+          <div class="code-snippet m-y-4">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2814%2C13%2C12%2C0%29&t=vscode&wt=sharp&l=htmlmixed&width=848&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=147%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-30-70%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-70-30%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-20-80%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="
+                  /* width: 315px; */
+                  height: 295px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+        </div>
+        <!-- Typography -->
+        <div class="component-section">
+          <div class="textbox">
+            <div id="typography" class="title p-y-1 is-6">Typography</div>
+            <div class="subtitle regular is-4">
+              Lucid Ui has a plethora of text utilities. Check them out.
+            </div>
+            <p class="text is-3 is-dark">
+              There are four main types of text classes
+              <span style="color: var(--primary)">
+                title, subtitle, text, CTA-text you can use these inside textbox
+                div or idividually </span
+              >. Additionaly you can change font weight and color of any text by
+              using regular,bold,light,semibold and is-"color" class
+              respectively.
+            </p>
+          </div>
+          <div class="textbox">
+            <div class="subtitle is-4 m-up-5 is-dark">Heading</div>
+            <p class="text is-3 is-dark">
+              Use title class to declare a heading then use is-"font size" to
+              declare it's size. There are 6 sizes available 1 to 6, 1 being the
+              smallest and 6 the biggest.
+            </p>
+          </div>
+          <div class="showcase flex-c-w m-y-6">
+            <div class="title is-6">Size 6 Heading</div>
+            <div class="title is-5">Size 5 Heading</div>
+            <div class="title is-4">Size 4 Heading</div>
+            <div class="title is-3">Size 3 Heading</div>
+            <div class="title is-2">Size 2 Heading</div>
+          </div>
+          <div class="code-snippet m-y-4">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2814%2C13%2C12%2C0%29&t=vscode&wt=sharp&l=htmlmixed&width=848&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=147%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522title%2520is-6%2522%253ESize%25206%2520Heading%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522title%2520is-5%2522%253ESize%25205%2520Heading%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522title%2520is-4%2522%253ESize%25204%2520Heading%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522title%2520is-3%2522%253ESize%25203%2520Heading%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522title%2520is-2%2522%253ESize%25202%2520Heading%253C%252Fdiv%253E"
+                style="
+                  /* width: 469px; */
+                  height: 166px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+          <div class="textbox">
+            <div class="subtitle is-4 m-up-5 is-dark">Paragraph Text</div>
+            <p class="text is-3 is-dark">
+              Use title class to declare a heading then use is-"font size" to
+              declare it's size. There are 6 sizes available 1 to 6, 1 being the
+              smallest and 6 the biggest.
+            </p>
+          </div>
+          <div class="showcase flex-c-w m-y-6">
+            <div class="text regular is-dark is-6">Size 6 text</div>
+            <div class="text regular is-dark is-5">Size 5 text</div>
+            <div class="text regular is-dark is-4">Size 4 text</div>
+            <div class="text regular is-dark is-3">Size 3 text</div>
+            <div class="text regular is-dark is-2">Size 2 text</div>
+            <div class="text regular is-dark is-1">Size 1 text</div>
+          </div>
+          <div class="code-snippet m-y-4">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2814%2C13%2C12%2C0%29&t=vscode&wt=sharp&l=htmlmixed&width=848&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=147%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2520regular%2520is-dark%2520is-6%2522%253ESize%25206%2520text%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2520regular%2520is-dark%2520is-5%2522%253ESize%25205%2520text%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2520regular%2520is-dark%2520is-4%2522%253ESize%25204%2520text%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2520regular%2520is-dark%2520is-3%2522%253ESize%25203%2520text%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2520regular%2520is-dark%2520is-2%2522%253ESize%25202%2520text%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2520regular%2520is-dark%2520is-1%2522%253ESize%25201%2520text%253C%252Fdiv%253E"
+                style="
+                  /* width: 561px; */
+                  height: 184px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+          <div class="textbox">
+            <div class="subtitle is-4 m-up-5 is-dark">Text position</div>
+            <p class="text is-3 is-dark">
+              There are 3 text positions available, which are text-left,
+              text-center , text-right.
+            </p>
+          </div>
+          <div class="showcase flex-c-w m-y-6">
+            <div class="text text-center is-dark is-5">Size 6 text center</div>
+            <div class="text text-right is-dark is-5">Size 5 text right</div>
+            <div class="text text-left is-dark is-5">Size 4 text left</div>
+          </div>
+          <div class="code-snippet m-y-4">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2814%2C13%2C12%2C0%29&t=vscode&wt=sharp&l=htmlmixed&width=848&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=147%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2520text-center%2520is-dark%2520is-5%2522%253ESize%25206%2520text%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2520text-right%2520is-dark%2520is-5%2522%253ESize%25205%2520text%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2520text-left%2520is-dark%2520is-5%2522%253ESize%25204%2520text%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                style="
+                  /* width: 596px; */
+                  height: 148px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+          <div class="textbox">
+            <div class="subtitle is-4 m-up-5 is-dark">Text utilities</div>
+            <p class="text is-3 is-dark">
+              There are many text utilities ranging from color to underline.
+            </p>
+          </div>
+          <div class="showcase flex-c-w m-y-6">
+            <p class="text is-3 is-light">Lucid Ui is awesome.</p>
+            <p class="text is-3 is-blue">Lucid Ui is awesome.</p>
+            <p class="text is-3 is-red">Lucid Ui is awesome.</p>
+            <p class="text is-3 is-green">Lucid Ui is awesome.</p>
+            <p class="text is-3 is-dark">Lucid Ui is awesome.</p>
+            <p class="text is-3 light">Lucid Ui is awesome.</p>
+            <p class="text is-3 semibold">Lucid Ui is awesome.</p>
+            <p class="text is-3 bold">Lucid Ui is awesome.</p>
+            <p class="text is-3 strike">Lucid Ui is awesome.</p>
+            <p class="text is-3 underline">Lucid Ui is awesome.</p>
+            <p class="subtitle is-dark is-3">Lucid Ui is awesome.</p>
+          </div>
+          <div class="code-snippet m-y-4">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2814%2C13%2C12%2C0%29&t=vscode&wt=sharp&l=htmlmixed&width=596&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=147%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text%2520is-3%2520is-light%2522%253ELucid%2520Ui%2520is%2520awesome.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text%2520is-3%2520is-blue%2522%253ELucid%2520Ui%2520is%2520awesome.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text%2520is-3%2520is-red%2522%253ELucid%2520Ui%2520is%2520awesome.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text%2520is-3%2520is-green%2522%253ELucid%2520Ui%2520is%2520awesome.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text%2520is-3%2520is-dark%2522%253ELucid%2520Ui%2520is%2520awesome.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text%2520is-3%2520light%2522%253ELucid%2520Ui%2520is%2520awesome.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text%2520is-3%2520semibold%2522%253ELucid%2520Ui%2520is%2520awesome.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text%2520is-3%2520bold%2522%253ELucid%2520Ui%2520is%2520awesome.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text%2520is-3%2520strike%2522%253ELucid%2520Ui%2520is%2520awesome.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text%2520is-3%2520underline%2522%253ELucid%2520Ui%2520is%2520awesome.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522subtitle%2520is-dark%2520is-3%2520%2522%253ELucid%2520Ui%2520is%2520awesome.%253C%252Fp%253E"
+                style="
+                  /* width: 596px; */
+                  height: 276px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
           </div>
         </div>
       </div>
