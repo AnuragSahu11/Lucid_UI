@@ -64,6 +64,26 @@
   height: min-content;
 }
 
+/* grid */
+.grid-showcase{
+  width: 100%;
+}
+.grid-showcase > *{
+  height: 100px;  
+}
+.one{
+  background-color: var(--primary);
+}
+.two{
+  background-color: var(--black);
+}
+.three{
+  background-color: var(--grey);
+}
+.four{
+  background-color: var(--font-light);
+}
+
 /* showcase navbar customization */
 .nav-end {
   justify-content: flex-end;
