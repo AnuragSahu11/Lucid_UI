@@ -581,3 +581,10 @@
 .child-m-s > :nth-child(n + 2) {
   margin-top: var(--s);
 }
+
+.visible{
+  visibility: visible;
+}
+.hidden{
+  visibility: hidden;
+}
