@@ -1,9 +1,21 @@
 .hero-img {
   width: 90%;
 }
-
+body{
+  overflow-x: hidden;
+}
 /* documentation */
-
+.card-horizontal{
+  max-width: 700px;
+}
+.notification-list-link .card-horizontal{
+  width: fit-content;
+}
+.toast-showcase .toast{
+  position: inherit;
+  z-index: 0;
+  width: fit-content;
+}
 .grid-documentation {
   position: relative;
   z-index: 3;
@@ -99,6 +111,7 @@
   .navbar {
     padding-left: 1%;
     padding-right: 1%;
+    width: 100%;
   }
   .nav-brand {
     width: 7%;
@@ -137,9 +150,9 @@ code iframe {
   background-color: #1e1e1e;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   code iframe {
-    width: 400px;
+    width: 100%;
   }
 }
 
@@ -160,6 +173,8 @@ code iframe {
     display: none;
   }
   .component {
+    padding-left: 10px;
+    /* padding-right: 5px; */
     width: 90vw;
   }
 }
