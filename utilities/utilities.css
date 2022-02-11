@@ -49,14 +49,23 @@
 .text-center {
   text-align: center;
 }
-.text-left{
+.text-left {
   text-align: left;
 }
-.text-right{
+.text-right {
   text-align: right;
 }
-.strike{
+.strike {
   text-decoration: line-through;
+}
+.ff-2 {
+  font-family: var(--font-two);
+}
+.logo-m {
+  width: 110px;
+}
+.logo-s {
+  width: 40px;
 }
 
 /* Background colors */
@@ -538,7 +547,7 @@
 }
 
 /* height */
-.height-100{
+.height-100 {
   height: 100%;
 }
 
@@ -591,9 +600,9 @@
   margin-top: var(--s);
 }
 
-.visible{
+.visible {
   visibility: visible;
 }
-.hidden{
+.hidden {
   visibility: hidden;
 }
