@@ -84,8 +84,8 @@
   padding-right: 3%;
   display: flex;
   align-items: center;
-  padding-top: var(--m);
-  padding-bottom: var(--m);
+  padding-top: var(--s);
+  padding-bottom: var(--s);
 }
 
 /* nav brand, logo */
