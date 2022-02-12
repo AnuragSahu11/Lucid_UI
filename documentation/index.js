@@ -14,3 +14,16 @@ componentList.addEventListener("click", () => {
     componentList.style.display = "none";
   }
 });
+// alert
+
+
+
+
+// code snippet
+const avatarButton = document.getElementById("avatarButton");
+const avatarCode = document.getElementById("avatarCode");
+
+avatarButton.addEventListener("click", () => {
+  avatarCode.style.display = "initial";
+  avatarButton.style.display = "none";
+});
