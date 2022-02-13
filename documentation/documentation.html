@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/main.css" />
     <link rel="stylesheet" href="style.css" />
+
     <title>Lucid Ui | Documentation</title>
   </head>
-  <body>
+  <body class="">
     <!-- Navbar -->
     <nav class="navbar li-shadow">
       <div class="nav-brand">
@@ -34,11 +35,10 @@
           >
         </div>
         <div class="nav-end">
-          <a href="">
-            <button class="btn-icon nav-icons m-x-1">
-              <i class="fab fa-twitter-square is-4"></i>
-            </button>
-          </a>
+          <button id="dark-mode" class="btn-icon nav-icons m-x-1">
+            <i class="fas fa-moon"></i>
+          </button>
+
           <a href="https://www.linkedin.com/in/anurag-sahu-241520193/">
             <button class="btn-icon nav-icons m-x-1">
               <i class="fab fa-linkedin is-4"></i>
@@ -62,26 +62,26 @@
       <div class="component-list li-shadow p-l-2">
         <div class="textbox flex-col">
           <div class="title is-4 p-y-2">Components</div>
-          <a href="#alert" class="link m-y-1 light is-black is-4">Alert</a>
-          <a href="#avatar" class="link m-y-1 light is-black is-4">Avatar</a>
-          <a href="#badge" class="link m-y-1 light is-black is-4">Badge</a>
-          <a href="#button" class="link m-y-1 light is-black is-4">Button</a>
-          <a href="#card" class="link m-y-1 light is-black is-4">Card</a>
-          <a href="#form" class="link m-y-1 light is-black is-4">Form</a>
-          <a href="#image" class="link m-y-1 light is-black is-4">Image</a>
-          <a href="#list" class="link m-y-1 light is-black is-4">List</a>
+          <a href="#alert" class="link m-y-1 light is-dark is-4">Alert</a>
+          <a href="#avatar" class="link m-y-1 light is-dark is-4">Avatar</a>
+          <a href="#badge" class="link m-y-1 light is-dark is-4">Badge</a>
+          <a href="#button" class="link m-y-1 light is-dark is-4">Button</a>
+          <a href="#card" class="link m-y-1 light is-dark is-4">Card</a>
+          <a href="#form" class="link m-y-1 light is-dark is-4">Form</a>
+          <a href="#image" class="link m-y-1 light is-dark is-4">Image</a>
+          <a href="#list" class="link m-y-1 light is-dark is-4">List</a>
 
-          <a href="#modal" class="link m-y-1 light is-black is-4">Modal</a>
-          <a href="#navigation" class="link m-y-1 light is-black is-4"
+          <a href="#modal" class="link m-y-1 light is-dark is-4">Modal</a>
+          <a href="#navigation" class="link m-y-1 light is-dark is-4"
             >Navigation</a
           >
-          <a href="#rating" class="link m-y-1 light is-black is-4">Rating</a>
-          <a href="#grid" class="link m-y-1 light is-black is-4">Grid</a>
-          <a href="#typography" class="link m-y-1 light is-black is-4"
+          <a href="#rating" class="link m-y-1 light is-dark is-4">Rating</a>
+          <a href="#grid" class="link m-y-1 light is-dark is-4">Grid</a>
+          <a href="#typography" class="link m-y-1 light is-dark is-4"
             >Typography</a
           >
-          <a href="#toast" class="link m-y-1 light is-black is-4">Toast</a>
-          <a href="#slider" class="link p-dw-4 light is-black is-4">Slider</a>
+          <a href="#toast" class="link m-y-1 light is-dark is-4">Toast</a>
+          <a href="#slider" class="link p-dw-4 light is-dark is-4">Slider</a>
         </div>
       </div>
 
@@ -524,10 +524,14 @@
           </div>
           <div class="showcase button-showcase flex-row m-y-4">
             <a href="" class="btn-float shadow"><i class="fas fa-plus"></i></a>
-            <button class="btn-grey btn-medium shadow has-black">Black</button>
-            <button class="btn-grey btn-medium shadow has-red">Red</button>
-            <button class="btn-grey btn-medium shadow has-green">Green</button>
-            <button class="btn-grey btn-medium shadow has-yellow">
+            <button class="btn-medium btn-primary shadow has-black">
+              Black
+            </button>
+            <button class="btn-medium btn-primary shadow has-red">Red</button>
+            <button class="btn-medium btn-primary shadow has-green">
+              Green
+            </button>
+            <button class="btn-medium btn-primary shadow has-yellow">
               Yellow
             </button>
           </div>
@@ -797,7 +801,7 @@
               </div>
               <div class="card-overlay-text">
                 <div class="textbox">
-                  <div class="title is-dark is-4">Out of Stock</div>
+                  <div class="title is-dark is-5">Out of Stock</div>
                 </div>
               </div>
             </div>
@@ -1185,8 +1189,8 @@
               inside "li" element. Check below code for cards in stacked list.
             </p>
           </div>
-          <div class="showcase flex-c-w">
-            <div class="notification-list">
+          <div class="showcase width-100 flex-c-w">
+            <div class="notification-list center-x">
               <ul class="list child-m-s">
                 <li class="list-items list-none">
                   <a href="" class="notification-list-link">
@@ -1275,8 +1279,8 @@
               and add contents inside it.
             </p>
           </div>
-          <div class="showcase avatar-showcase flex-row m-y-6">
-            <div class="modal shadow">
+          <div class="showcase width-100 flex-row m-y-6">
+            <div class="modal center-x shadow">
               <button class="card-cross btn-close is-medium">
                 <i class="fas fa-times"></i>
               </button>
@@ -1901,5 +1905,6 @@
       </div>
     </div>
     <script src="index.js"></script>
+    <script src="darkmode.js"></script>
   </body>
 </html>

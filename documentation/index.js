@@ -8,22 +8,22 @@ hamburger.addEventListener("click", () => {
   console.log(component.style.display);
 });
 
-componentList.addEventListener("click", () => {
-  if (component.style.display == "none") {
-    component.style.display = "block";
-    componentList.style.display = "none";
-  }
-});
+// componentList.addEventListener("click", () => {
+//   if (component.style.display == "none") {
+//     component.style.display = "block";
+//     componentList.style.display = "none";
+//   }
+// });
 // alert
 
 
 
 
 // code snippet
-const avatarButton = document.getElementById("avatarButton");
-const avatarCode = document.getElementById("avatarCode");
+// const avatarButton = document.getElementById("avatarButton");
+// const avatarCode = document.getElementById("avatarCode");
 
-avatarButton.addEventListener("click", () => {
-  avatarCode.style.display = "initial";
-  avatarButton.style.display = "none";
-});
+// avatarButton.addEventListener("click", () => {
+//   avatarCode.style.display = "initial";
+//   avatarButton.style.display = "none";
+// });
