@@ -7,10 +7,10 @@ html {
   scroll-behavior: smooth;
 }
 /* documentation */
-iframe{
+iframe {
   border-radius: var(--border-radius-l);
 }
-.lucid-span{
+.lucid-span {
   font-size: 9rem;
 }
 .card-horizontal {
@@ -146,7 +146,7 @@ iframe{
 }
 
 @media only screen and (max-width: 1168px) {
-  .nav-icons {
+  .showcase-nav-icons {
     display: none;
   }
 }
@@ -186,6 +186,6 @@ code iframe {
     width: 90vw;
   }
 }
-.dis-none{
+.dis-none {
   display: none;
 }
