@@ -16,7 +16,7 @@
   padding: var(--micro);
   border-radius: var(--micro);
   background-color: var(--grey);
-  color: var(--black);
+  color: var(--font-dark);
   font-size: var(--is-2);
 }
 .rating-result i {
@@ -41,11 +41,11 @@
   padding: var(--xs);
   text-align: left;
 }
-.form-error-text{
-    width: 100%;
-    font-size: var(--is-2);
-    color: var(--red);
-    font-weight: var(--bold);
+.form-error-text {
+  width: 100%;
+  font-size: var(--is-2);
+  color: var(--red);
+  font-weight: var(--bold);
 }
 
 /* form label */

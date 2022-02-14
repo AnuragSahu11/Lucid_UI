@@ -12,7 +12,7 @@
 .link:hover {
   color: var(--secondary);
 }
-.underline{
+.underline {
   text-decoration: underline;
   text-underline-position: under;
 }
@@ -142,7 +142,7 @@
   border: solid 2px var(--hover);
   color: var(--hover);
 }
-.btn-secondary-grey{
+.btn-secondary-grey {
   background-color: transparent;
   border: solid 2px var(--font-light);
   color: var(--font-light);
@@ -191,7 +191,7 @@
 
 /* button horizontal */
 
-.btn-horizontal{
+.btn-horizontal {
   display: flex;
   justify-content: space-evenly;
 }

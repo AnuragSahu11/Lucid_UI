@@ -79,7 +79,6 @@
 /* navbar */
 
 .navbar {
-  background-color: white;
   padding-left: 3%;
   padding-right: 3%;
   display: flex;
@@ -135,7 +134,7 @@
   margin-left: var(--xs);
 }
 .nav-end > button > i {
-  color: var(--font-dark);
+  color: var(--blue);
 }
 .nav-icons {
   background: transparent;
@@ -175,7 +174,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .nav-icons {
+  .nav-btn {
     display: none;
   }
 }

@@ -6,34 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/main.css" />
     <link rel="stylesheet" href="style.css" />
+
     <title>Lucid Ui | Documentation</title>
   </head>
-  <body>
+  <body class="">
     <!-- Navbar -->
     <nav class="navbar li-shadow">
       <div class="nav-brand">
         <a href="" class="logo-a">
-          <i class="fas fa-suitcase"></i>
+          <img
+            class="logo-s"
+            src="/documentation/02 - Colorful - Icon Only.png"
+            alt=""
+          />
         </a>
       </div>
-      <div id="hamburger" class="nav-hamburger">
-        <i class="fas fa-bars"></i>
+      <div class="nav-hamburger">
+        <i class="dark-mode fas m-r-2 fas fa-moon"></i>
+        <i id="hamburger" class="fas fa-bars"></i>
       </div>
       <div class="nav-menu">
         <div class="nav-start">
           <a href="/index.html" class="nav-item link">Home</a>
           <a href="/documentation/install.html" class="nav-item link"
-            >Introduction</a>
+            >Introduction</a
+          >
           <a href="/documentation/documentation.html" class="nav-item link"
             >Documentation</a
           >
         </div>
         <div class="nav-end">
-          <a href="">
-            <button class="btn-icon nav-icons m-x-1">
-              <i class="fab fa-twitter-square is-4"></i>
-            </button>
-          </a>
+          <button class="dark-mode btn-icon nav-icons m-x-1">
+            <i class="fas fa-moon"></i>
+          </button>
+
           <a href="https://www.linkedin.com/in/anurag-sahu-241520193/">
             <button class="btn-icon nav-icons m-x-1">
               <i class="fab fa-linkedin is-4"></i>
@@ -57,26 +63,26 @@
       <div class="component-list li-shadow p-l-2">
         <div class="textbox flex-col">
           <div class="title is-4 p-y-2">Components</div>
-          <a href="#alert" class="link m-y-1 light is-black is-4">Alert</a>
-          <a href="#avatar" class="link m-y-1 light is-black is-4">Avatar</a>
-          <a href="#badge" class="link m-y-1 light is-black is-4">Badge</a>
-          <a href="#button" class="link m-y-1 light is-black is-4">Button</a>
-          <a href="#card" class="link m-y-1 light is-black is-4">Card</a>
-          <a href="#form" class="link m-y-1 light is-black is-4">Form</a>
-          <a href="#image" class="link m-y-1 light is-black is-4">Image</a>
-          <a href="#list" class="link m-y-1 light is-black is-4">List</a>
+          <a href="#alert" class="link m-y-1 light is-dark is-4">Alert</a>
+          <a href="#avatar" class="link m-y-1 light is-dark is-4">Avatar</a>
+          <a href="#badge" class="link m-y-1 light is-dark is-4">Badge</a>
+          <a href="#button" class="link m-y-1 light is-dark is-4">Button</a>
+          <a href="#card" class="link m-y-1 light is-dark is-4">Card</a>
+          <a href="#form" class="link m-y-1 light is-dark is-4">Form</a>
+          <a href="#image" class="link m-y-1 light is-dark is-4">Image</a>
+          <a href="#list" class="link m-y-1 light is-dark is-4">List</a>
 
-          <a href="#modal" class="link m-y-1 light is-black is-4">Modal</a>
-          <a href="#navigation" class="link m-y-1 light is-black is-4"
+          <a href="#modal" class="link m-y-1 light is-dark is-4">Modal</a>
+          <a href="#navigation" class="link m-y-1 light is-dark is-4"
             >Navigation</a
           >
-          <a href="#rating" class="link m-y-1 light is-black is-4">Rating</a>
-          <a href="#grid" class="link m-y-1 light is-black is-4">Grid</a>
-          <a href="#typography" class="link m-y-1 light is-black is-4"
+          <a href="#rating" class="link m-y-1 light is-dark is-4">Rating</a>
+          <a href="#grid" class="link m-y-1 light is-dark is-4">Grid</a>
+          <a href="#typography" class="link m-y-1 light is-dark is-4"
             >Typography</a
           >
-          <a href="#toast" class="link m-y-1 light is-black is-4">Toast</a>
-          <a href="#slider" class="link p-dw-4 light is-black is-4">Slider</a>
+          <a href="#toast" class="link m-y-1 light is-dark is-4">Toast</a>
+          <a href="#slider" class="link p-dw-4 light is-dark is-4">Slider</a>
         </div>
       </div>
 
@@ -138,9 +144,12 @@
               <a class="link underline" href="">Check this</a>
             </div>
           </div>
-          <div class="code-snippet m-y-4">
+
+          <div id="cs-avatar" class="code-snippet m-y-4">
             <code>
+              <!-- <button id="avatarButton" class="btn-primary m-dw-6 center-text btn-small has-dark-grey li-shadow btn-grey">Show code</button> -->
               <iframe
+                id="avatarCode"
                 src="https://carbon.now.sh/embed?bg=rgba%2814%2C13%2C12%2C0%29&t=vscode&wt=sharp&l=htmlmixed&width=816.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=147%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520info%2520alert%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-info%2520is-3%2520semibold%2522%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522alert-icon%2520fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%253Cp%2520class%253D%2522alert-text%2522%253EThis%2520is%2520an%2520example%2520of%2520info%2520Alert%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520alert%2520success%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-success%2520is-3%2520semibold%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522alert-icon%2520fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253Cp%2520class%253D%2522alert-text%2522%253EThis%2520is%2520an%2520example%2520of%2520success%2520Alert%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520alert%2520warning%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-warning%2520is-3%2520semibold%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522alert-icon%2520fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fi%253E%253Cp%2520class%253D%2522alert-text%2522%253EThis%2520is%2520an%2520example%2520of%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520warning%2520Alert%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520alert%2520error%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-error%2520is-3%2520alert-close%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522alert-icon%2520fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%253Cp%2520class%253D%2522alert-text%2522%253EThis%2520is%2520an%2520example%2520of%2520error%2520Alert%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520with%2520close%2520button%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-close%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520alert%2520with%2520link%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-info%2520is-3%2520alert-link%2522%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522alert-icon%2520fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%253Cp%2520class%253D%2522alert-text%2522%253E%2520This%2520is%2520an%2520example%2520of%2520primary%2520Alert%2520with%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520a%2520link.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link%2520underline%2522%2520href%253D%2522%2522%253ECheck%2520this%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
                 style="
                   /* width: 1024px; */
@@ -516,10 +525,14 @@
           </div>
           <div class="showcase button-showcase flex-row m-y-4">
             <a href="" class="btn-float shadow"><i class="fas fa-plus"></i></a>
-            <button class="btn-grey btn-medium shadow has-black">Black</button>
-            <button class="btn-grey btn-medium shadow has-red">Red</button>
-            <button class="btn-grey btn-medium shadow has-green">Green</button>
-            <button class="btn-grey btn-medium shadow has-yellow">
+            <button class="btn-medium btn-primary shadow has-black">
+              Black
+            </button>
+            <button class="btn-medium btn-primary shadow has-red">Red</button>
+            <button class="btn-medium btn-primary shadow has-green">
+              Green
+            </button>
+            <button class="btn-medium btn-primary shadow has-yellow">
               Yellow
             </button>
           </div>
@@ -789,7 +802,7 @@
               </div>
               <div class="card-overlay-text">
                 <div class="textbox">
-                  <div class="title is-dark is-4">Out of Stock</div>
+                  <div class="title is-dark is-5">Out of Stock</div>
                 </div>
               </div>
             </div>
@@ -1177,8 +1190,8 @@
               inside "li" element. Check below code for cards in stacked list.
             </p>
           </div>
-          <div class="showcase flex-c-w">
-            <div class="notification-list">
+          <div class="showcase width-100 flex-c-w">
+            <div class="notification-list center-x">
               <ul class="list child-m-s">
                 <li class="list-items list-none">
                   <a href="" class="notification-list-link">
@@ -1267,8 +1280,8 @@
               and add contents inside it.
             </p>
           </div>
-          <div class="showcase avatar-showcase flex-row m-y-6">
-            <div class="modal shadow">
+          <div class="showcase width-100 flex-row m-y-6">
+            <div class="modal center-x shadow">
               <button class="card-cross btn-close is-medium">
                 <i class="fas fa-times"></i>
               </button>
@@ -1323,7 +1336,7 @@
           </div>
           <div class="showcase avatar-showcase m-y-6">
             <!-- navbar -->
-            <nav class="navbar shadow">
+            <nav class="navbar li-shadow">
               <div class="nav-brand">
                 <a href="" class="logo-a">
                   <i class="fas fa-suitcase"></i>
@@ -1348,13 +1361,13 @@
                       placeholder="search"
                     />
                   </div>
-                  <button class="btn-icon nav-icons m-x-1">
+                  <button class="btn-icon showcase-nav-icons nav-icons m-x-1">
                     <i class="fas fa-shopping-cart"></i>
                   </button>
-                  <button class="btn-icon nav-icons m-x-1">
+                  <button class="btn-icon showcase-nav-icons nav-icons m-x-1">
                     <i class="fas fa-bell"></i>
                   </button>
-                  <button class="btn-icon nav-icons m-x-1">
+                  <button class="btn-icon showcase-nav-icons nav-icons m-x-1">
                     <i class="fas fa-heart"></i>
                   </button>
                   <button class="btn-secondary nav-btn btn-small">
@@ -1893,5 +1906,6 @@
       </div>
     </div>
     <script src="index.js"></script>
+    <script src="../components/darkmode.js"></script>
   </body>
 </html>

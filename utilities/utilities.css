@@ -91,6 +91,9 @@
 .has-yellow {
   background-color: var(--yellow);
 }
+.has-dark{
+  background-color: var(--font-dark);
+}
 .has-black {
   background-color: var(--black);
 }
@@ -109,6 +112,7 @@
 .has-light-blue {
   background-color: var(--very-light-blue);
 }
+
 .has-transparent {
   background-color: transparent;
 }
@@ -143,15 +147,14 @@
 /* shadow */
 
 .shadow {
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  box-shadow: var(--shadow);
 }
 
 .li-shadow {
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: var(--li-shadow);
 }
 .dk-shadow {
-  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
-    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  box-shadow: var(--dk-shadow);
 }
 
 /* typography */

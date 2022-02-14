@@ -1,11 +1,18 @@
 .hero-img {
   width: 90%;
 }
+
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
 /* documentation */
+iframe {
+  border-radius: var(--border-radius-l);
+}
+.lucid-span {
+  font-size: 9rem;
+}
 .card-horizontal {
   max-width: 700px;
 }
@@ -139,7 +146,7 @@ html {
 }
 
 @media only screen and (max-width: 1168px) {
-  .nav-icons {
+  .showcase-nav-icons {
     display: none;
   }
 }
@@ -179,6 +186,6 @@ code iframe {
     width: 90vw;
   }
 }
-.dis-none{
+.dis-none {
   display: none;
 }

@@ -1,6 +1,7 @@
 /* Basic card */
 
 .card {
+  background-color: var(--card-background);
   width: 310px;
   border-radius: var(--xs);
   height: fit-content;
@@ -51,7 +52,7 @@
 .card-icon {
   position: absolute;
   font-size: var(--is-4);
-  color: var(--grey);
+  color: var(--permanent-white);
   bottom: var(--xxs);
   right: var(--xxs);
   cursor: pointer;
@@ -70,7 +71,7 @@
   padding-right: 3px;
   border-radius: 3px;
   background-color: var(--primary);
-  color: var(--white);
+  color: var(--permanent-white);
 }
 
 /* card text overlay */
@@ -89,7 +90,7 @@
   align-items: center;
 }
 .card-overlay-text .textbox {
-  background-color: var(--white);
+  /* background-color: var(--grey); */
 }
 
 /* card horizontal */
@@ -115,7 +116,7 @@
   overflow: hidden;
 }
 .card-horizontal .card-head .card-icon {
-  color: var(--white);
+  color: var(--permanent-white);
 }
 .card-horizontal .card-body {
   width: 75%;
