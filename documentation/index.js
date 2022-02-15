@@ -14,11 +14,8 @@ componentList.addEventListener("click", () => {
     componentList.style.display = "none";
   }
 });
+
 // alert
-
-
-
-
 // code snippet
 // const avatarButton = document.getElementById("avatarButton");
 // const avatarCode = document.getElementById("avatarCode");
