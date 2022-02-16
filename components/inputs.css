@@ -61,12 +61,18 @@
 
 .form-input {
   padding: var(--xxs) var(--s) var(--xxs) 40px;
-  height: var(--s);
+  height: 3.4rem;
   font-size: var(--is-2);
-  width: 80%;
+  width: 110%;
   border-radius: var(--border-radius-s);
   border: var(--border) solid var(--grey);
 }
+@-moz-document url-prefix() {
+  .form-input {
+    width: 100%;
+  }
+}
+
 .form-input:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
