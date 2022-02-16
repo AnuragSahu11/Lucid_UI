@@ -7,9 +7,8 @@ body {
 
 /* border box for all elements */
 
-html {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+* {
+  box-sizing: Border-box;
 }
 
 a {
