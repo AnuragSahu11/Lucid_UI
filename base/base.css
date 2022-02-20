@@ -51,7 +51,6 @@ body {
   --font-lighter: #a29f9b;
   --card-background: #191919;
   --font-dark: #d9d6d1;
-  /* --black: #d9d6d1; */
   --accent: #191c1d;
   --tertiary: #103d4c;
   --very-light-green: #13341d;
@@ -59,6 +58,7 @@ body {
   --very-light-red: #510500;
   --very-light-yellow: #3d2d05;
   --shadow: 0px 8px 16px 0px #0d0d0d;
+  --elevated: #212121;
 }
 
 /* spacing variables*/
