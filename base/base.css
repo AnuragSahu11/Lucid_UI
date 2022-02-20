@@ -31,7 +31,7 @@ body {
   --red: #df1642;
   --green: #18a957;
   --yellow: #ffbb38;
-  --permanent-white: var(--white);
+  --permanent-white: white;
   --very-light-blue: #e4eeff;
   --very-light-green: #e6f6e7;
   --very-light-red: #ffd0cd;
@@ -60,10 +60,7 @@ body {
   --very-light-yellow: #3d2d05;
   --shadow: 0px 8px 16px 0px #0d0d0d;
 }
-/* transition for dark mode */
-* {
-  transition: background-color 0.6s ease, color 0.4s ease;
-}
+
 /* spacing variables*/
 
 :root {

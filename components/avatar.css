@@ -112,12 +112,21 @@
 }
 .icon-badge span {
   position: absolute;
-  width: 0.7em;
-  height: 0.7em;
-  right: -0.45em;
-  top: -0.35em;
+  right: -1.2em;
+  top: -1em;
+  height: 1.75em;
+  min-width: 1.75em;
+  padding: 2px;
+  border-radius: 50%;
+  border: 2px solid var(--permanent-white);
+  display: flex;
   background-color: var(--primary);
-  border-radius: var(--border-radius-circle);
+  color: var(--permanent-white);
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 0.5em;
+  box-sizing: border-box;
 }
 
 /* text badge */
