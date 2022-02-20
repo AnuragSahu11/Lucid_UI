@@ -116,6 +116,11 @@
 .has-transparent {
   background-color: transparent;
 }
+/* darkmode */
+
+.elevated{
+  background-color: var(--elevated);
+}
 
 /* colors,font colors */
 

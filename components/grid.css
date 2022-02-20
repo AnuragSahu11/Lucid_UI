@@ -134,7 +134,7 @@
   margin-left: var(--xs);
 }
 .nav-end > button > i {
-  color: var(--blue);
+  /* color: var(--blue); */
 }
 .nav-icons {
   background: transparent;
