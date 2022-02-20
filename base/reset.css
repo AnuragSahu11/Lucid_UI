@@ -14,7 +14,9 @@ body {
 a {
   text-decoration: none;
 }
-
+hr {
+  color: #e0e0e0;
+}
 /* input type number */
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
