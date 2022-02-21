@@ -34,3 +34,6 @@ Browse the <a href="https://lucid-ui.netlify.app/documentation/documentation.htm
 - [Typography](https://lucid-ui.netlify.app/documentation/documentation.html#typography)
 - [Toast](https://lucid-ui.netlify.app/documentation/documentation.html#toast)
 - [Slider](https://lucid-ui.netlify.app/documentation/documentation.html#slider)
+### Additional features
+- Dark mode
+- Responsive from default
