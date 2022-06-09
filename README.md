@@ -36,4 +36,4 @@ Browse the <a href="https://lucid-ui.netlify.app/documentation/documentation.htm
 - [Slider](https://lucid-ui.netlify.app/documentation/documentation.html#slider)
 ### Additional features
 - Dark mode
-- Responsive from default
+- Responsive out of the Box
